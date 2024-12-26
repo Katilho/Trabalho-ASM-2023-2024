@@ -1,0 +1,4 @@
+.env
+errors.txt
+resources/meteo.json
+resources/flights.json

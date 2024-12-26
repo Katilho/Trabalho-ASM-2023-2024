@@ -1,0 +1,15 @@
+{
+    "airports": {
+        "Lisboa": {"num_planes": 2, "hangar_capacity": 5, "runways": 4},
+        "Porto": {"num_planes": 4, "hangar_capacity": 5, "runways": 3},
+        "Faro": {"num_planes": 3, "hangar_capacity": 5, "runways": 2}
+    },
+    "flights": {
+        "plan": "random"
+    },
+    "weather": {
+        "mode": "past", // "manual" ou "current" ou "past"
+        "from": "2024-01-04 20:00:00" // a data só pode ir no máximo até um ano atrás
+        // "period": 15 // em segundos (opcional. default: 30)
+    }
+}
